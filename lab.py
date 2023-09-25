@@ -1,6 +1,6 @@
 import telnetlib
 
-file = open('D:\configuration.txt','r')
+file = open('./configuration.txt','r')
 
 comands = file.readlines() #команды
 l = len(comands) #количество команд
