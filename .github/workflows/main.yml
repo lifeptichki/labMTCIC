@@ -24,7 +24,7 @@ jobs:
       run: pip install -r configuration.txt
 
     - name: Update configuration file
-      run: python update_config.py
+      run: python lab.py
 
     - name: Run script
-      run: python script.py
+      run: python lab.py
