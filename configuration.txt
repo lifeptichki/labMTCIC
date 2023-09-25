@@ -1,0 +1,18 @@
+enable
+conf t
+vlan 3
+name right
+exit
+interface range FastEthernet0/1 - 4
+no shutdown
+switchport mode access
+switchport access vlan 3
+interface range FastEthernet0/1 - 2
+channel-group 2 mode active
+exit
+interface Port-channel 2
+switchport trunk encapsulation dot1q 
+switchport mode trunk
+end
+exit
+
