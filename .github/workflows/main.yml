@@ -1,6 +1,6 @@
 
 yaml
-name: Build and Run Script
+name:Build
 
 on:
   push:
