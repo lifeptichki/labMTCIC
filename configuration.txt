@@ -1,7 +1,7 @@
 enable
 conf t
 vlan 3
-name drozk
+name dr
 exit
 interface range FastEthernet0/1 - 4
 no shutdown
